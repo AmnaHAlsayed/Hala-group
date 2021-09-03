@@ -19,7 +19,7 @@ router.get('/:id' , formControllers.getformById);
 // check('cv').not().isEmpty(),], formControllers.createNewUser);
 
 router.post('/',(req, res) => {
-    console.log("******* data")
+    console.log("******* data new push to git")
     console.log(req.body);
     console.log("******* data")
     formControllers.createNewUser(req, res);
